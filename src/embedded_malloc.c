@@ -47,6 +47,6 @@ void embedded_free(void *ptr) {
     if (p >= large_start && p < large_end) {
         uintptr_t offset = p - large_start;
         uint8_t index = offset / BLOCK_LARGE_SIZE;
-        bitmap_large &= ~(1U << index);
+        bitmap_large &= ~(1 << index);
     }
 }
