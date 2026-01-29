@@ -1,4 +1,4 @@
-# embedded_malloc
+# Embedded Malloc
 A custom memory allocator for embedded systems with fixed-size block support.
 
 ### Build
